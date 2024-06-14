@@ -21,7 +21,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[MapController::class, 'index'])->name('index');
 Route::get('/table',[MapController::class, 'table'])->name('table');
-Route::get('/landing',[MapController::class, 'landing'])->name('landing');
+Route::get('/landing', [MapController::class, 'landing'])->name('landing');
+Route::get('/map', [MapController::class, 'map'])->name('index-public');
+Route::get('/index-public', [MapController::class, 'indexPublic'])->name('index-public');
 
 //create point
 Route::post('/store-point',[PointController::class, 'store'])->name('store-point');

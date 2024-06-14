@@ -9,19 +9,20 @@ class MapController extends Controller
     public function index()
     {
         $data = [
-            "title" => "RuKit Jakarta Selatan",
+            "title" => " Rukit Jakarta Selatan",
         ];
 
         if (auth()->check()) {
             return view('index', $data);
         } else {
-            return view('index-public', $data);
+            return view('landing', $data);
         }
     }
+
     public function map()
     {
         $data = [
-            "title" => "RUKITJAKSEL",
+            "title" => " Rukit Jakarta Selatan ",
         ];
 
         if (auth()->check()) {
@@ -30,6 +31,7 @@ class MapController extends Controller
             return view('index-public', $data);
         }
     }
+
     public function table()
     {
         $data = [
@@ -37,11 +39,20 @@ class MapController extends Controller
         ];
         return view('table', $data);
     }
+
     public function landing()
     {
         $data = [
             "title" => "Landing",
         ];
         return view('landing', $data);
+    }
+
+    public function indexPublic()
+    {
+        $data = [
+            "title" => " Rukit Jakarta Selatan",
+        ];
+        return view('index-public', $data);
     }
 }

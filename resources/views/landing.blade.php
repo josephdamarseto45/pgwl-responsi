@@ -26,7 +26,7 @@
       <div class="container d-flex align-items-center">
 
         <div class="logo me-auto">
-          <h1><a href="peta.php">SI.PENJAKS</a></h1>
+          <h1><a href="peta.php">RUKITJAKSEL</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
@@ -60,8 +60,8 @@
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
       <div class="container text-center text-md-left" data-aos="fade-up">
         <h1>Selamat Datang</h1>
-        <h2>Peta Persebaran Fasilitas Pendidikan Kota Administrasi Jakarta Selatan</h2>
-        <a href="peta.php" class="btn-get-started scrollto">Mulai</a>
+        <h2>Peta Persebaran Fasilitas Rumah Sakit Kota Administrasi Jakarta Selatan</h2>
+        <a href="{{ route('index-public') }}" class="btn-get-started scrollto">Mulai</a>
       </div>
     </section><!-- End Hero -->
 
@@ -74,7 +74,7 @@
           <div class="section-title">
           <section id="map" class="map">
             <h2><a href="#map">Menu</h2>
-            <p>Informasi persebaran fasilitas pendidikan Kota Administrasi Jakarta Selatan</p>
+            <p>Informasi persebaran fasilitas rumah sakit Kota Administrasi Jakarta Selatan</p>
           </div>
 
           <div class="row">
@@ -89,16 +89,16 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <div class="icon-box">
                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="peta.php">Peta Fasilitas Pendidikan</a></h4>
-                <p>Peta Persebaran Fasilitas Pendidikan Kota Administrasi Jakarta Selatan</p>
+                <h4><a href="{{ route('index-public') }}">Peta Fasilitas Rumah Sakit</a></h4>
+                <p>Peta Persebaran Fasilitas Rumah Sakit Kota Administrasi Jakarta Selatan</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="datajaksel.html">Data Informasi</a></h4>
-                <p>Data infografis penduduk dan fasilitas pendidikan</p>
+                <h4><a href="https://lewatmana.com/lokasi/fasilitas-kesehatan/rumah-sakit/di/jakarta-selatan/?page=1">Sumber Data</a></h4>
+                <p>Sumber Data Rumah Sakit Jakarta Selatan</p>
               </div>
             </div>
 
@@ -116,18 +116,18 @@
               <img src="assets/img/jaksel.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0">
-              <h3>SIPENJAKS?</h3>
+              <h3>RUKITJAKSEL?</h3>
               <p>
-                Peta Web GIS Interaktif yang disusun oleh Joseph Damarseto. Menyajikan peta wilayah Kota Administrasi Jakarta Selatan yang diisi dengan berbagai macam
-                informasi mengenai fasilitas pendidikan yang tersevar di seluruh wilayah Kota Administrasi Jakarta.
+                Peta Web GIS Interaktif yang disusun oleh Joseph Damarseto. Menyajikan peta wilayah Kota Administrasi Jakarta Selatan yang diisi dengan
+                informasi mengenai fasilitas rumah sakit yang tersebar di seluruh wilayah Kota Administrasi Jakarta Selatan.
               </p>
               <ul>
                 <li><i class="bx bx-check-double"></i> Profil </li>
                 <li><i class="bx bx-check-double"></i> Peta WebGIS</li>
-                <li><i class="bx bx-check-double"></i> Data Informasi</li>
+                <li><i class="bx bx-check-double"></i> Sumber Data</li>
               </ul>
 
-              <h3>PROFIL SIPENJAKS</h3>
+              <h3>PROFIL RUKITJAKSEL</h3>
               <p>
                 Created by Joseph Damarseto - 22/502852/SV/21451 - Sistem Informasi Geografis - Departemen Teknologi Kebumian - Sekolah Vokasi - Universitas Gadjah Mada
               </p>
@@ -144,7 +144,7 @@
                     <p>Nama: Joseph Damarseto</p>
                     <p>NIM: 22/502852/SV/21451</p>
                     <p>Kelas: B</p>
-                    <p>Sumber Data: <a href="https://jakselkota.bps.go.id/ " a>https://jakselkota.bps.go.id/</a></p>
+
 
                 </div>
                 <div class="modal-footer">
