@@ -16,6 +16,8 @@ Web GIS yang dibuat untuk menampilkan dan menyunting informasi mengenai Rumah Sa
 
 ![image](https://github.com/josephdamarseto45/pgwl-responsi/assets/142876662/0a2dfa00-f79b-42ad-8b1a-ab74217565e8)
 
+![image](https://github.com/josephdamarseto45/pgwl-responsi/assets/142876662/f72d7057-cec9-4747-9816-e66b8cbf2602)
+
 ![image](https://github.com/josephdamarseto45/pgwl-responsi/assets/142876662/c1b2ba93-7dba-442f-a9c9-ff76e8317643)
 
 ![image](https://github.com/josephdamarseto45/pgwl-responsi/assets/142876662/035c0fc1-fced-4be8-9066-af3a5172e33c)
