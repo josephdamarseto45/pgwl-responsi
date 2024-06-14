@@ -4,7 +4,7 @@ NIM: 22/502852/SV/21451
 RUKITJAKSEL
 Rumah Sakit Jakarta Selatan 
 
-Web GIS yang dibuat untuk menampilkan dan menyunting informasi mengenai Rumah Sakit di berbagai kecamatan Jakarta Selatan
+Web GIS yang dibuat untuk menampilkan dan menyunting informasi mengenai Rumah Sakit di berbagai kecamatan Kota Jakarta Selatan
 
 ![image](https://github.com/josephdamarseto45/pgwl-responsi/assets/142876662/e74df747-40b1-4f04-9b18-d0d0c1e20990)
 
