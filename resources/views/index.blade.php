@@ -516,31 +516,31 @@ fetch('storage/geojson/jalan.geojson')
             });
 
 
-        /* GeoJSON Point */
-        var point = L.geoJson(null, {
-            pointToLayer: function (feature, latlng) {
-                return L.marker(latlng, {icon: customIcon});
-            },
-            onEachFeature: function(feature, layer) {
-                var popupContent = "Name: " + feature.properties.name + "<br>" +
-                    "Description: " + feature.properties.description + "<br>" +
-                    "Photo: <img src='{{ asset('storage/images/') }}/" + feature.properties.image +
-                    "' class='img-thumbnail' alt='...'>" + "<br>";
-                    ;
-                layer.on({
-                    click: function(e) {
-                        point.bindPopup(popupContent);
-                    },
-                    mouseover: function(e) {
-                        point.bindTooltip(feature.properties.name);
-                    },
-                });
-            },
-        });
-        $.getJSON("{{ route('api.points') }}", function(data) {
-            point.addData(data);
-            map.addLayer(point);
-        });
+        // /* GeoJSON Point */
+        // var point = L.geoJson(null, {
+        //     pointToLayer: function (feature, latlng) {
+        //         return L.marker(latlng, {icon: customIcon});
+        //     },
+        //     onEachFeature: function(feature, layer) {
+        //         var popupContent = "Name: " + feature.properties.name + "<br>" +
+        //             "Description: " + feature.properties.description + "<br>" +
+        //             "Photo: <img src='{{ asset('storage/images/') }}/" + feature.properties.image +
+        //             "' class='img-thumbnail' alt='...'>" + "<br>";
+        //             ;
+        //         layer.on({
+        //             click: function(e) {
+        //                 point.bindPopup(popupContent);
+        //             },
+        //             mouseover: function(e) {
+        //                 point.bindTooltip(feature.properties.name);
+        //             },
+        //         });
+        //     },
+        // });
+        // $.getJSON("{{ route('api.points') }}", function(data) {
+        //     point.addData(data);
+        //     map.addLayer(point);
+        // });
 
         //Basemap
         L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {

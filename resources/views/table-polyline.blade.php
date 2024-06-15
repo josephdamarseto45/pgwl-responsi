@@ -15,6 +15,8 @@
                             <th>Description</th>
                             <th>Images</th>
                             <th>Created at</th>
+
+
                         </tr>
                     </thead>
                     <tbody>
@@ -24,11 +26,16 @@
                                 <td>{{ $no++ }}</td>
                                 <td>{{ $p->name }}</td>
                                 <td>{{ $p->description }}</td> <!-- Fixed case sensitivity -->
+                                <td>{{ $p->image }}</td> <!-- Fixed case sensitivity -->
+                                <td>{{ $p->created_at }}</td> <!-- Fixed case sensitivity -->
+                                <td>{{ $p->updated_at }}</td> <!-- Fixed case sensitivity -->
+
+
 
                                 <td>
                                     <img src="{{ asset('storage/images/' . $p->image) }}" alt="image" width="200">
                                 </td>
-                                <td>{{ date_format($p->created_at, 'D, d M Y, H:i:s') }}</td>
+                                {{-- <td>{{ date_format($p->created_at, 'D, d M Y, H:i:s') }}</td> --}}
                             </tr>
                         @endforeach
                     </tbody>
